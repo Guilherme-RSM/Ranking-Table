@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  min-height: 400px;
+  background-image: url(../img/bg-supermario.jpg);
+  background-color: #000000;
+  background-size: 100%;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+
+.new-game button {
+  border: 0;
+  color: #ffffff;
+  background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  background: rgb(9, 153, 8);
+  background: linear-gradient(90deg, rgba(9, 153, 8, 0.39539565826330536) 0%, rgba(0, 255, 34, 0.6306897759103641) 100%);
+  font-weight: bold;
+  padding: 15px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.new-game button:hover {
+  transform: scale(1.1);
+  border: 1px solid white;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+h1 {
+  color: white;
+  text-shadow: 0 0 10px black, 0 0 10px black;
+}
+
+th,
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+span {
+  display: none;
+}
+
+tr.win #emoji {
+  display: inline-flex;
+}

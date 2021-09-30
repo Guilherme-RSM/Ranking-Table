@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Imersão Dev Alura III - Aula 06 - Tabela de classificação</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="shortcut icon" href="../img/favicon.ico" />
+
+
+  </head>
+
+  <body>
+
+    <h1>Campeonato<br>Super Mario Kart</h1>
+    <div class="container">
+
+      <table style="width:100%" align="center">
+        <thead>
+          <tr>
+            <th>Avatar</th>
+            <th>Nome</th>
+            <th>Vitórias</th>
+            <th>Empates</th>
+            <th>Derrotas</th>
+            <th>Pontos</th>
+            <th colspan="3">Ações</th>
+          </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+        </tbody>
+      </table>
+      <div>
+        <input type="text" id="jogador" name="novo-jogador" placeholder="Insira nome do jogador">
+        <input type="text" id="avatar" name="avatar" placeholder="Insira endereço do avatar">
+        <button id="btn" onclick="adicionarJogador()">Adicionar Jogador</button>
+      </div>
+      <div class="new-game">
+        <button id="novo-jogo" onclick="resetarJogo()">Zerar a Pontuação</button>
+        <button id="nova-tabela" onclick="resetarTabela()">Remover todos jogadores</button>
+      </div>
+    </div>
+
+  </body>
+
+</html>
+
+<!--Entendendo melhor as tags de uma tabela:
+<theader>  <th> header  (cabeçalho da tabela).
+<tr> table row  (É cada uma das linhas horizontais da tabela).
+<td> table data / são os dados inseridos na tabela -->
+<script src="./script.js"></script>
+
+</body>
+
+</html>
